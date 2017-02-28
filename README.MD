@@ -1,4 +1,4 @@
-# Geoloc IP Api
+# Whoami Api
 ## Usage
 To receive the response, send a GET request to
 

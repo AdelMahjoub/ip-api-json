@@ -1,7 +1,7 @@
 {
-  "name": "Geoloc IP Api",
+  "name": "Whoami Api",
   "description": "get public ipv4 adress, geoloc data, isp and dns info",
-  "repository": "",
+  "repository": "https://github.com/AdelMahjoub/ip-api-json",
   "logo": "",
   "keywords": ["node", "express", "ip", "geoloc", "isp"],
   "image": ""

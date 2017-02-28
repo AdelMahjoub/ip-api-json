@@ -1,5 +1,5 @@
 {
-  "name": "ip-api",
+  "name": "whoami",
   "version": "1.0.0",
   "description": "prvides client ip adress, geolocation and isp infos",
   "main": "server.js",
@@ -13,6 +13,10 @@
     "express",
     "api"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AdelMahjoub/ip-api-json"
+  },
   "author": "AdelMahjoub",
   "license": "MIT",
   "dependencies": {
