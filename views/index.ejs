@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<% include partials/header %>
+</head>
+<body>
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+<% include partials/nav %>
+<div class="container">
+<div class="row">
+<div class="col-xs-12">
+<h1 class="hidden-xs">Geoloc IP Api</h1>
+<h3>Usage</h3>
+<p>To receive the response, send a GET request to</p>
+<code>https://[not available].herokuapp.com/json</code>
+<br />
+<h3>Response</h3>
+<div class="text-primary">
+<p><a href="/json">Example</a></p>
+</div>
+<p>A successuful request will return the following:</p>
+<pre class="text-danger">
+{
+  "ip": "",
+  "country_code": "",
+  "country_name": "",
+  "region_code": "",
+  "region_name": "",
+  "city": "",
+  "zip_code": "",
+  "time_zone": "",
+  "latitude": 0,
+  "longitude": 0,
+  "metro_code": 0,
+  "user_agent": ""
+  "isp": {}
+}
+</pre>
+</div><!--END OF COL-->
+</div><!--END OF ROW-->
+</div><!--END OF CONTAINER-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

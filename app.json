@@ -1,0 +1,8 @@
+{
+  "name": "Geoloc IP Api",
+  "description": "get public ipv4 adress, geoloc data, isp and dns info",
+  "repository": "",
+  "logo": "",
+  "keywords": ["node", "express", "ip", "geoloc", "isp"],
+  "image": ""
+}

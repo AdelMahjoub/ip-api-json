@@ -1,11 +1,10 @@
 {
   "name": "ip-api",
   "version": "1.0.0",
-  "description": "prvides client ip adress",
+  "description": "prvides client ip adress, geolocation and isp infos",
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [
