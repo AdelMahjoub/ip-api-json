@@ -1,0 +1,23 @@
+{
+  "name": "ip-api",
+  "version": "1.0.0",
+  "description": "prvides client ip adress",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "ip",
+    "node",
+    "express",
+    "api"
+  ],
+  "author": "AdelMahjoub",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.5.6",
+    "express": "^4.14.1"
+  }
+}
