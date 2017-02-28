@@ -25,6 +25,9 @@ module.exports = function(req, res, next) {
         var domainName = domainArray.splice(start, end).join(".");
         // Whois request
         whois.lookup(domainName, function(err, data) {
+          if(err) {
+            return res.json(info);
+          }
           // data is a string, each useful info is in a separate line
           // convert it to an array
           var ispDataArray = data.split("\n");
