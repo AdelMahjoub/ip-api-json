@@ -10,7 +10,7 @@ module.exports = function(req, res, next) {
   info.software = req.get("user-agent").match(/\(.+?\)/)[0];
   info.user_agent = req.get("user-agent");
   // Get GeoIP info
-  http.get("http://freegeoip.net/json/" + req.ip, function(response) {
+  http.get("http://freegeoip.net/json/" + info.ip, function(response) {
     response.setEncoding('utf8');
     response.on("data", function(data) {
       info.location = JSON.parse(data);
