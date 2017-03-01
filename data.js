@@ -14,7 +14,7 @@ module.exports = function(req, res, next) {
   http.get("http://freegeoip.net/json/" + info.ip, function(response) {
     response.setEncoding('utf8');
     response.on("data", function(data) {
-      info.location = JSON.parse(data);
+      info.location = JSON.parse(data.toString());
       //Get ISP Info
       dns.reverse(info.ip, function(err, domain) {
         if(err) {
