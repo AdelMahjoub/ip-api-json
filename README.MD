@@ -5,7 +5,7 @@ To receive the response, send a GET request to
 https://[not available].herokuapp.com/json 
 ## Response
 
-A successuful request will return the following:
+A successful request will return the following:
 ```
 {
   "ip": "::ffff:127.0.0.1",
