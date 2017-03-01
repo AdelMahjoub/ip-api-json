@@ -2,6 +2,7 @@
 
 var http = require("http");
 var dns = require("dns");
+var whois = require("whois");
 
 module.exports = function(req, res, next) {
   var info = {}; // data to send
