@@ -2,7 +2,7 @@
 ## Usage
 To receive the response, send a GET request to
 
-https://[not available].herokuapp.com/json 
+https://https://whoami-ip-api.herokuapp.com/json 
 ## Response
 
 A successful request will return the following:
