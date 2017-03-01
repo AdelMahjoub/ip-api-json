@@ -15,7 +15,7 @@ module.exports = function(req, res, next) {
     response.on("data", function(data) {
       info.location = JSON.parse(data);
       //Get ISP Info
-      dns.reverse(req.ip, function(err, domain) {
+      dns.reverse(info.ip, function(err, domain) {
         if(err) {
           return res.json(info);
         }
