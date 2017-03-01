@@ -5,8 +5,7 @@ var dns = require("dns");
 
 module.exports = function(req, res, next) {
   var info = {}; // data to send
-  info.ip = req.ip;
-  console.log(req.ip)
+  info.ip = req.get("X-Forwarded-For");
   info.language = req.get("Accept-Language").split(",")[0];
   info.software = req.get("user-agent").match(/\(.+?\)/)[0];
   info.user_agent = req.get("user-agent");
